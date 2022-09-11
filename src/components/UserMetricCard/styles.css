@@ -1,0 +1,25 @@
+.UserMetricCard
+{
+    border-radius: 4px;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.UserMetricCard span
+{
+    display: flex;
+    flex-direction: row;
+    font-size: 9pt;
+    flex-wrap: wrap;
+}
+
+.UserMetricCard  h2
+{
+    font-size: 9pt;
+    color: var(--primary);
+    font-weight: bold;
+}

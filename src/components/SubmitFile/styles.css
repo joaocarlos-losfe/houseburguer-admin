@@ -1,0 +1,26 @@
+.SubmitFile
+{
+    border: 2px solid var(--border);
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    transition: 200ms;
+    resize: none;
+}
+
+.SubmitFile::file-selector-button
+{
+    padding: 12px;
+    box-sizing: border-box;
+    color: white;
+    font-weight: bold;
+    border: none;
+    background-color: var(--primary);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 150ms;
+    margin-right: 24px;
+    box-sizing: border-box;
+    font-size: 8pt;
+}
+

@@ -1,0 +1,95 @@
+.DrawStartPage
+{
+    width: 70%;
+    height: 95%;
+    background-color: white;
+    border-radius: 4px;
+    padding: 16px;
+    box-sizing: border-box;
+   
+}
+
+.DrawStartPage .MainContainer
+{
+    margin-top: 24px;
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.DrawStartPage .MainContainer .Metrics
+{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.DrawStartPage .MainContainer .Metrics span
+{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    color: var(--secondary);
+    align-items: center;
+    margin-bottom: 16px;
+    font-size: 10pt;
+}
+
+.DrawStartPage .MainContainer .Metrics span h2
+{
+    margin-left: 5px;
+    color: var(--primary);
+}
+
+.DrawStartPage .MainContainer .Metrics .UserData 
+{
+    height: 350px;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    overflow-y: scroll;
+}
+
+.DrawStartPage .MainContainer .Metrics #alert
+{
+    margin: 0;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.DrawStartPage .DrawResult
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.DrawStartPage .DrawResult img
+{
+    height: 350px;
+    margin-bottom: 32px;
+}
+
+.DrawStartPage .DrawResult span
+{
+    display: flex;
+    flex-direction: row;
+    font-size: 14pt;
+    color: var(--secondary);
+    font-weight: bold;
+}
+
+.DrawStartPage .DrawResult h1
+{
+    margin-left: 5px;
+    color: var(--primary);
+}

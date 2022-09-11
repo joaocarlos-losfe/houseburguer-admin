@@ -1,0 +1,21 @@
+.CardContainer
+{
+    width: 45%;
+    height: 95vh;
+    border-radius: 8px;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+    box-sizing: border-box;
+}
+
+.CardContainer h1
+{
+    font-size: 13pt;
+    color: var(--secondary);
+    margin-bottom: 16px;
+    font-weight: bold;
+}

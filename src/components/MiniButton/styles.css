@@ -1,0 +1,23 @@
+.MiniButton
+{
+    border: none;
+    margin-left: 8px;
+    border-radius: 4px;
+    background-color: white;
+    color: var(--secondary);
+    box-sizing: border-box;
+    font-size: 13pt;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 150ms ease;
+}
+
+.MiniButton:hover
+{
+    color: var(--primary);
+}
+
+.MiniButton:active
+{
+    color: var(--secondary);
+}

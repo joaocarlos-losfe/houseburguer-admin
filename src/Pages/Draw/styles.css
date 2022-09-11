@@ -1,0 +1,61 @@
+.DrawPage
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    transition: 0.2s ease;
+    align-items: center;
+}
+
+
+.DrawPage #err-message
+{
+    color: var(--primary);
+    font-size: 11pt;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.DrawPage .ButtonActions
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.DrawPage .LastDrawContainer
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.DrawPage .LastDrawContainer span
+{
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    font-size: 11pt;
+    color: var(--secondary);
+}
+
+.DrawPage .LastDrawContainer span h2
+{
+    margin-left: 5px;
+    color: var(--primary);
+}
+
+.DrawPage .LastDrawContainer img
+{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 7px;
+    margin-bottom: 24px;
+}

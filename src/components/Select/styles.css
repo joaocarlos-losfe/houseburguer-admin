@@ -1,0 +1,29 @@
+.Select
+{
+    border: 2px solid var(--border);
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    transition: 200ms;
+    resize: none;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.Select:focus
+{
+    border: 2px solid var(--primary);
+}
+
+.Select option
+{
+    background-color: white;
+    font-size: 12pt;
+    margin-bottom: 8px;
+    overflow: hidden;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

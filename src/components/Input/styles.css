@@ -1,0 +1,13 @@
+.Input 
+{
+    border: 2px solid var(--border);
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    transition: 200ms;
+}
+
+.Input:focus
+{
+    border: 2px solid var(--primary);
+}

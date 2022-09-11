@@ -1,0 +1,41 @@
+.ClientPage
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    transition: 0.2s ease;
+}
+
+.ClientPage #info
+{
+    color: var(--secondary);
+    font-size: 10pt;
+    margin-bottom: 12px;
+}
+
+.ClientPage #alert
+{
+    margin-bottom: 16px;
+    font-size: 11pt;
+    font-weight: 500;
+    color: var(--secondary);
+}
+
+.ClientPage #alert-error
+{
+    margin: 0 auto;
+    margin-bottom: 8px;
+    color: var(--primary);
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+.ClientPage .ButtonActions
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
